@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body .slick-prev:before,
+body .slick-next:before {
+  height: 45px;
+  width: 40px;
+  color: black !important;
+
+  z-index: 100;
+}
