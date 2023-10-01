@@ -3,9 +3,8 @@
 
 body .slick-prev:before,
 body .slick-next:before {
-  height: 45px;
-  width: 40px;
-  color: black !important;
 
+  color: black !important;
+  opacity: 20%;
   z-index: 100;
 }

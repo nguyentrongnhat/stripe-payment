@@ -20,7 +20,14 @@ export class SlickSlideComponent {
     {img: "../assets/demo.jpg"},
     {img: "../assets/demo.jpg"}
   ];
-  slideConfig = {"slidesToShow": 4, "slidesToScroll": 4};
+  slideConfig = {
+    "slidesToShow": 4,
+    "slidesToScroll": 4,
+    "autoplay": true,
+    "autoplaySpeed": 3000,
+    "pauseOnHover": true,
+    "infinite": true
+  };
 
   addSlide() {
     this.slides.push({img: "../assets/demo.jpg"})
